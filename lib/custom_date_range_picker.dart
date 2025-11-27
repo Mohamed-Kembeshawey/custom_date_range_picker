@@ -1,5 +1,6 @@
 import 'custom_calendar.dart';
 import 'package:flutter/material.dart';
+import 'package:easy_localization/easy_localization.dart';
 
 /// user for DateTime formatting
 import 'package:intl/intl.dart';
@@ -126,7 +127,7 @@ class CustomDateRangePickerState extends State<CustomDateRangePicker> with Ticke
                               crossAxisAlignment: CrossAxisAlignment.center,
                               children: <Widget>[
                                 Text(
-                                  'From',
+                                  'from'.tr(),
                                   textAlign: TextAlign.left,
                                   style: TextStyle(
                                     fontWeight: FontWeight.w400,
@@ -159,7 +160,7 @@ class CustomDateRangePickerState extends State<CustomDateRangePicker> with Ticke
                               crossAxisAlignment: CrossAxisAlignment.center,
                               children: <Widget>[
                                 Text(
-                                  'To',
+                                  'to'.tr(),
                                   style: TextStyle(
                                     fontWeight: FontWeight.w400,
                                     fontSize: 16,
@@ -226,7 +227,7 @@ class CustomDateRangePickerState extends State<CustomDateRangePicker> with Ticke
                                   },
                                   child: const Center(
                                     child: Text(
-                                      'Cancel',
+                                      'Cancel'.tr(),
                                       style: TextStyle(
                                         fontWeight: FontWeight.w500,
                                         fontSize: 18,
@@ -262,7 +263,7 @@ class CustomDateRangePickerState extends State<CustomDateRangePicker> with Ticke
                                   },
                                   child: const Center(
                                     child: Text(
-                                      'Apply',
+                                      'Ok'.tr(),
                                       style: TextStyle(
                                         fontWeight: FontWeight.w500,
                                         fontSize: 18,
