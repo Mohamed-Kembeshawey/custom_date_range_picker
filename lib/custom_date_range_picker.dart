@@ -225,7 +225,7 @@ class CustomDateRangePickerState extends State<CustomDateRangePicker> with Ticke
                                       Navigator.pop(context);
                                     } catch (_) {}
                                   },
-                                  child: const Center(
+                                  child: Center(
                                     child: Text(
                                       'Cancel'.tr(),
                                       style: TextStyle(
@@ -261,7 +261,7 @@ class CustomDateRangePickerState extends State<CustomDateRangePicker> with Ticke
                                       Navigator.pop(context);
                                     } catch (_) {}
                                   },
-                                  child: const Center(
+                                  child: Center(
                                     child: Text(
                                       'Ok'.tr(),
                                       style: TextStyle(
